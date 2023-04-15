@@ -19,3 +19,5 @@ export const counterSlice = createSlice({
     },
   },
 });
+
+export const { increment, decrement, incrementBy2 } = counterSlice.actions;

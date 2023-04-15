@@ -1,9 +1,8 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
 import { useDispatch, useSelector } from "react-redux";
 import { increment, decrement, incrementBy2 } from "./store/slices/counter";
+
+import reactLogo from "./assets/react.svg";
+import "./App.css";
 
 function App() {
   const { counter } = useSelector((state) => state.counter);
